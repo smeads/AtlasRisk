@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+   height: 100%;
+   font-size: 100%;
+}
+
+body {
+   background-color: white;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   font-family: 'Roboto', sans-serfi;
+   color: black;
+   min-height: 100%;
+}
+
+.navbar {
+   position: relative;
+   padding: 0.5rem;
+   background: rgba(230, 230, 230, .5);
+   z-index: 1;
+}
+
+.navbar .logo img {
+   position: relative;
+   left: 2rem;
+   width: 250px;
+   height: 120px;
+   cursor: pointer;
+}
+
+.navbar .links-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.links-container .navbar-link {
+    list-style-type: none;
+    position: relative;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-link li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar-link a:hover {
+    color: #8b8d8e;
+}
+
+.navbar-link a:active {
+    color: white;
+}

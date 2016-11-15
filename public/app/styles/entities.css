@@ -1,0 +1,152 @@
+header {
+  position: relative;
+  left: 1rem;
+  margin: 1rem;
+  letter-spacing: 0.25rem;
+  color: white;
+  text-shadow: .5px .5px 0px rgb(58,23,63);
+}
+
+section.entities-search {
+  position: relative;
+  left: 1rem;
+  margin: 1rem;
+}
+
+input.search-box {
+  width: 180px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(230, 230, 230, .5);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.ion-ios-search {
+  color: black;
+  font-size: 2rem;
+}
+
+input.search-box:focus {
+  width: 25%;
+}
+
+.entities-list {
+  position: relative;
+  float: right;
+  margin: 0 30rem 1rem 1rem;
+  color: white;
+}
+
+table {
+  margin: 8px 0 2px 1rem;
+}
+td {
+  font-size: 16px;
+  text-shadow: .5px .5px 0px rgb(58,23,63);
+  padding: 2px;
+}
+
+.entity-information {
+  position: relative;
+  margin: 12rem 1rem 1rem 1rem;
+  color: white;
+}
+
+.ownership-detail {
+  position: relative;
+  float: right;
+  margin: 1rem 30rem 0 0;
+  color: white;
+}
+
+.ownership {
+  position: relative;
+  float: right;
+  margin: 1rem 30rem 0 0;
+  color: white;
+}
+
+section.entity-form {
+  position: relative;
+  margin: 10rem 1rem 1rem 1rem;
+}
+
+div.fieldSet {
+  border-radius: 5px;
+  width: 400px;
+  background-color: rgba(230, 230, 230, .5);
+  margin: 0 2rem 2rem 0;
+}
+
+fieldset {
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+
+legend {
+  border-radius: 5px 5px 0 0;
+  font-size: 25px;
+  background-color: rgba(1, 155, 255, .5);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-shadow: .5px .5px 0px rgb(58,23,63);
+}
+
+label.field {
+  text-align: left;
+  width: 100px;
+  float: left;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: .6rem 0 .3rem 0;
+  text-shadow: .5px .5px 0px rgb(58,23,63);
+}
+
+input.textbox-300 {
+  border-radius: 5px;
+  width: 350px;
+  height: 30px;
+  float: left;
+  background-color: transparent;
+}
+
+input.entity-submit {
+  border-radius: 5px;
+  background-color: rgba(1, 155, 255, .5);
+  float: left;
+  margin: 1rem 0 0 0;
+  font-family: 'Roboto', sans-serfi;
+}
+
+input.entity-submit:hover {
+  color: #8b8d8e;
+}
+
+input.entity-submit:active {
+  color: white;
+}
+
+fieldset p {
+  clear: both;
+  padding: 0 0 0 1rem;
+}
+
+label span, .required {
+  color: rgb(255, 179, 179);
+  font-size: 15px;
+}
+
+.required {
+  float: right;
+  margin: 5px 2.1rem 0 0;
+}
